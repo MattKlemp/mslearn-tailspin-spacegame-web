@@ -2,7 +2,7 @@ trigger:
 - '*'
 
 pool:
-  vmImage: 'DevPool'
+  name: 'DevPool'
   demands:
     - npm
 
